@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button android:id="@+id/btnElements"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Elements"
+        android:onClick="elements"/>
+
+    <Button android:id="@+id/btnLayouts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Layouts"
+        android:onClick="layouts"/>
+
+    <Button android:id="@+id/btnService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Service"
+        android:onClick="service"/>
+
+    <Button android:id="@+id/btnSharedPreference"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Shared Preference"
+        android:onClick="sharedPreference"/>
+
+    <Button android:id="@+id/btnGPS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GPS / Google Maps"
+        android:onClick="gps"/>
+
+    <Button android:id="@+id/btnREST"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REST"
+        android:onClick="rest"/>
+
+    <Button android:id="@+id/btnWebService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WebService"
+        android:onClick="webService"/>
+
+    <Button android:id="@+id/btnSQLite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SQLite"
+        android:onClick="sQLite"/>
+
+</LinearLayout>

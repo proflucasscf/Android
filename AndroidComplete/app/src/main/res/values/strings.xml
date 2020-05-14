@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Android</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string-array name="activity_list">
+        <item>MainFrame</item>
+        <item>Settings</item>
+        <item>Translation Rules</item>
+    </string-array>
+</resources>
